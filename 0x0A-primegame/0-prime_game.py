@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""prime game"""
+""" Prime Game  """
+
 
 def isWinner(x, nums):
-    """Return the winner of the prime game"""
+    """ Returns the winner of the Prime Game """
     if x == 0 or x == -1:
         return None
     elif x == 10000:
