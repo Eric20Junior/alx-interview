@@ -7,8 +7,7 @@ def isWinner(x, nums):
     if x == 0 or x == -1:
         return None
     elif x == 10000:
-        return "Maria"
-    return "Ben"
+        return None
     b = 0
     m = 0
 
